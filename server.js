@@ -13,7 +13,7 @@ var transporter = createTransport({
 
 var mailOptions = {
 	from: `Language Community Site <${process.env.GOOGLE_MAIL_ACCOUNT_USER}@gmail.com>`,
-	to: 'thereceipient@domain.com', // change this to email you want to received test mails at
+	to: 'edwardtanguay@gmail.com', // change this to email you want to received test mails at
 	subject: 'Please confirm your registration',
 	html: `
 <h1>Please confirm your registration</h1>	
